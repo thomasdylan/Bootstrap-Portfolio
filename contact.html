@@ -16,7 +16,8 @@
 <body>
 
     <!--Nav bar-->
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light" style="font-family: Georgia, 'Times New Roman', Times, serif;">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light"
+        style="padding: 0 1rem; font-family: Georgia, 'Times New Roman', Times, serif;">
         <!--Left side of navbar-->
         <!--Probably overkill on the inline styling-->
         <a class="navbar-brand mr-auto" style="background: #4aaaa5; margin-left: 18%; padding: 10px; color: white;"
@@ -45,8 +46,27 @@
         </div>
     </nav>
 
-
-
+    <div class="container xs-8"
+        style="margin-top: 2%; max-width: 960px; background: #ffffff; border-width: 3px; border-style: solid; border-color: #dddddd;">
+        <form>
+            <div class="form-group" style="margin-top: 2%;">
+                <label for="exampleInputName1">Name</label>
+                <input type="name" class="form-control" id="exampleInputName1" aria-describedby="nameHelp"
+                    placeholder="Enter name">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Enter email">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary"
+                style="margin-bottom: 2%; font-family: Georgia, 'Times New Roman', Times, serif; border-color: #dddddd; background: #4aaaa5;">Submit</button>
+        </form>
+    </div>
 
 
 
