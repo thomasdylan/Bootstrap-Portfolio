@@ -6,21 +6,24 @@
     <!--Creates responsive viewport-->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>About Dylan ft. Bootstrap</title>
-    <!--My CSS files-->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+
     <!--Bootstrap css link-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!--My CSS files-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 </head>
 
 <body>
 
     <!--Nav bar-->
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light" style="padding: 0 1rem; font-family: Georgia, 'Times New Roman', Times, serif;">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light"
+        style="padding: 0 1rem; font-family: Georgia, 'Times New Roman', Times, serif; border-bottom: 2px solid #cccccc;">
         <!--Left side of navbar-->
         <!--Probably overkill on the inline styling-->
-        <a class="navbar-brand mr-auto" style="background: #4aaaa5; margin-left: 18%; padding: 10px; color: white;"
-            href="#">
+        <a class="navbar-brand mr-auto"
+            style="background: #4aaaa5; margin-left: 18%; padding: 10px; color: white; font-size: 24px;" href="#">
             Dylan Thomas
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
@@ -44,6 +47,36 @@
             </ul>
         </div>
     </nav>
+
+    <div class="container xs-12 lg-8" style="margin-top: 5%;">
+        <div class="mainContent">
+            <div class="topContent">
+                <h2>Portfolio</h2>
+                <hr />
+            </div>
+            <div class="flex-portfolio">
+                <div class="profileImages">
+                    <img src="assets/images/controller.jpg" alt="Video game controller.">
+                    <div class="text-block">
+                        <h4>Video Games</h4>
+                    </div>
+                </div>
+                <div class="profileImages">
+                    <img src="assets/images/guitar.jpg" alt="Guitar">
+                    <div class="text-block">
+                        <h4>Music</h4>
+                    </div>
+                </div>
+                <a href="https://github.com/thomasdylan">
+                    <div class="profileImages">
+                        <img src="assets/images/github.png" alt="Github logo">
+                        <div class="text-block">
+                            <h4>Github Profile</h4>
+                        </div>
+                </a>
+            </div>
+        </div>
+    </div>
 
 
 

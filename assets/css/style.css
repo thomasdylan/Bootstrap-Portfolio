@@ -15,6 +15,7 @@ p {
     padding: 5px;
     font-size: 16px;
     line-height: 24px;
+    margin-right: 1%;
 }
 
 a {
@@ -85,9 +86,9 @@ a {
 }
 
 .imageFloat {
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-bottom: 5px;
+    margin-left: 1%;
+    margin-right: 2%;
+    margin-bottom: 1%;
     float: left;
 }
 
@@ -123,7 +124,7 @@ a {
     float: left;
 }
 
- /* Submit button on contact form */
+/* Submit button on contact form */
 
 #submitButton {
     background: #4aaaa5;
@@ -148,4 +149,11 @@ a {
     color: white;
     padding-left: 20px;
     padding-right: 20px;
-  }
+}
+
+.flex-portfolio {
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+     
+}
