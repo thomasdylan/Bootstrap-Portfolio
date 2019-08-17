@@ -116,14 +116,6 @@ a {
     color: #4aaaa5
 }
 
-.profileImages {
-    position: relative;
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-bottom: 15px;
-    float: left;
-}
-
 /* Submit button on contact form */
 
 #submitButton {
@@ -155,5 +147,6 @@ a {
     display: flex;
     align-content: center;
     flex-direction: row;
-     
+    justify-content: space-evenly;
+
 }
