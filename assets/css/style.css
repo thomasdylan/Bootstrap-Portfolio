@@ -39,7 +39,7 @@ a {
     width: 100%;
     text-align: center;
     color: #ffffff;
-    height: 40px;
+    height: 5%;
     padding-top: 10px;
     border-top: 8px solid #4aaaa5;
 }
@@ -131,13 +131,12 @@ a {
 /* Testing putting text over images */
 
 .text-block {
-    position: absolute;
+    position: relative;
     overflow: hidden;
     text-align: center;
     background-color: #4aaaa5;
     color: white;
-    padding-left: 20px;
-    padding-right: 20px;
+    bottom: -90%;
 }
 
 .flex-portfolio {
