@@ -146,3 +146,10 @@ a {
     justify-content: space-evenly;
 
 }
+
+/* Clearfix hack */
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
